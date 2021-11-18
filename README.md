@@ -1,2 +1,2 @@
 # Cloud-Project
-Java files for Cloud Based Application
+Files for Cloud Based Application
