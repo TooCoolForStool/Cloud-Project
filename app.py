@@ -24,7 +24,7 @@ def main():
     output += "The array is " + str(length) + " large and is the numbers "
     for num in array:
         output += str(num) + " "
-    output += "\n"
+    output += "<br>"
 
     d = (sum(array) / len(array))   # Takes sum and divides it by count to generate avg
 
@@ -51,7 +51,7 @@ def main():
             l += 1
 
     # print("The number of integers above zero is", h, "and the number of integers below zero is", l)
-    output += "The number of integers above zero is " + str(h) + "and the number of integers below zero is " + str(l) + "\n"
+    output += "The number of integers above zero is " + str(h) + " and the number of integers below zero is " + str(l) + "\n"
 
     m = len(array)//2       # finding which value is the median of the array
     # print("The median of the array is", array[m])
