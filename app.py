@@ -51,7 +51,7 @@ def main():
             l += 1
 
     # print("The number of integers above zero is", h, "and the number of integers below zero is", l)
-    output += "The number of integers above zero is " + str(h) + " and the number of integers below zero is " + str(l) + <br>"
+    output += "The number of integers above zero is " + str(h) + " and the number of integers below zero is " + str(l) + "<br>"
 
     m = len(array)//2       # finding which value is the median of the array
     # print("The median of the array is", array[m])
