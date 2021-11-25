@@ -83,7 +83,8 @@ def main():
     z = math.gcd(r, s)
     print("The GCD of", r, "and", s, "is", z)
     # output += "The GCD of", r, "and", s, "is", z, "\n"
-
+    return output
+    
 if __name__ == '__main__':
     
     app.run(host="0.0.0.0", port=5000, debug=True, use_reloader=True)
