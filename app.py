@@ -50,7 +50,7 @@ for num in array:       # deciding which integers through the array are equal to
 
 print("The number of integers greater than or equal to the median is", k, "while the numbers less than the median are", j)
 
-u = int(input("Type a number: "))       # requesting the user to enter an integer
+u = random.randint(a, b)                    # generating a new random number
 t = 0                                   # variable for populating the count of a number the user inputted
 for num in array:                       # populating t
     if num == u:
