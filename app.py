@@ -1,12 +1,12 @@
 import random
 import math         # needed for gcd
 from flask import Flask
-array = []          # empty list  array == list
 app = Flask(__name__)
 
 @app.route('/')
 
 def main():
+    array = []          # empty list  array == list
     output = ""
     a = -100
     b = 100
