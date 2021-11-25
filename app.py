@@ -29,7 +29,7 @@ def main():
     d = (sum(array) / len(array))   # Takes sum and divides it by count to generate avg
 
     # print("The average of the array is", d)
-    output += "The average of the array is " +  str(d) +  "\n"
+    output += "The average of the array is " +  str(d) +  "<br>"
 
 
     e = 0                   # variable for even numbers
@@ -40,7 +40,7 @@ def main():
         else:
             o+=1
     # print("The number of even numbers is", e, "and the number of odd numbers is", o)
-    output += "The number of even numbers is " +  str(e) + " and the number of odd numbers is " + str(o) +  "\n"
+    output += "The number of even numbers is " +  str(e) + " and the number of odd numbers is " + str(o) +  "<br>"
 
     h = 0
     l = 0
@@ -51,7 +51,7 @@ def main():
             l += 1
 
     # print("The number of integers above zero is", h, "and the number of integers below zero is", l)
-    output += "The number of integers above zero is " + str(h) + " and the number of integers below zero is " + str(l) + "\n"
+    output += "The number of integers above zero is " + str(h) + " and the number of integers below zero is " + str(l) + <br>"
 
     m = len(array)//2       # finding which value is the median of the array
     # print("The median of the array is", array[m])
@@ -66,7 +66,7 @@ def main():
             j += 1
 
     print("The number of integers greater than or equal to the median is", k, "while the numbers less than the median are", j)
-    output += "The number of integers greater than or equal to the median is " + str(k) + " while the numbers less than the median are " + str(j) + "\n"
+    output += "The number of integers greater than or equal to the median is " + str(k) + " while the numbers less than the median are " + str(j) + "<br>"
 
     u = random.randint(a, b)                    # generating a new random number
     t = 0                                   # variable for populating the count of a number the user inputted
@@ -74,20 +74,20 @@ def main():
         if num == u:
             t +=1
     # print("Your chosen number shows up", t, "times!")
-    output += "Your random number is " + str(u) + " and it shows up " + str(t) + " times!" + "\n"
+    output += "Your random number is " + str(u) + " and it shows up " + str(t) + " times!" + "<br>"
 
     r = max(array)          # using the max function to determine the highest integer
     s = min(array)          # using the min function to determine the lowest integer
     # print("The highest number in the array is", r, "and the lowest number in the array is", s)
-    output += "The highest number in the array is " + str(r) +  " and the lowest number in the array is " + str(s) + "\n"
+    output += "The highest number in the array is " + str(r) +  " and the lowest number in the array is " + str(s) + "<br>"
 
     parray = sorted(array, reverse=True)        # sorting the array and reversing it so it is in descending order
     #print("The array sorted and reversed in order is", parray)
-    output += "The array sorted and reversed in order is " +  str(parray) +  "\n"
+    output += "The array sorted and reversed in order is " +  str(parray) +  "<br>"
 
     z = math.gcd(r, s)
     # print("The GCD of", r, "and", s, "is", z)
-    output += "The GCD of " +  str(r) + " and " + str(s) + " is " + str(z) + "\n"
+    output += "The GCD of " +  str(r) + " and " + str(s) + " is " + str(z) + "<br>"
     print(output)
     return output
     
