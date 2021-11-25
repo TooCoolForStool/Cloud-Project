@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route('/')
 
 def main():
-    output = ""
+    output = "test"
     a = -100
     b = 100
     x = random.randint(a, b )  # Return a random integer a <= x <= b.
